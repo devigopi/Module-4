@@ -23,12 +23,26 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
+Reg.No=212223020028
+Name-Tharani devi.G
 Add Your Code Here
-
+S=input()
+L=S.split(',')
+int_L = []
+try:
+    for x in L:
+        int_L.append(int(x))
+except ValueError:
+    print("The grades you entered were in an invalid format.")
+    int_L=L
+finally:
+    print(int_L)
 ```
 
 ### OUTPUT
 
+
+![MODULE 4C](https://github.com/user-attachments/assets/3fcc8d68-c96f-4c1e-9a3a-b8bd4ef96116)
+
 ### RESULT
+This program for exception handling to inform the user if the values they entered cannot be converted to integers is successfully executed.
