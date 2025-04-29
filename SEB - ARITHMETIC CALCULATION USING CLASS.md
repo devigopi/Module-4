@@ -33,13 +33,29 @@ To write a Python program to perform addition and division operations using a cl
 ---
 
 ### PROGRAM
-
 ```
-
-
+Reg no-212223020028
+Name-Tharani devi.G
+write your code
+a=int(input())
+b=int(input())
+ch=1
+while ch!=0:
+    ch=int(input())
+    if ch==1:
+        print("Result: ",a+b)
+    elif ch==2:
+        print("Result: ",int(a/b))
+    elif ch==0:
+        print("Exiting!")
+    else:
+        print("Invalid choice")
 
 ```
 
 ### OUTPUT
 
+![MODULE 4E](https://github.com/user-attachments/assets/b47de85a-b1e6-426f-ac06-85d0c3871e23)
+
 ### RESULT
+This program for arithmetic calculation using class is successfully executed. 
